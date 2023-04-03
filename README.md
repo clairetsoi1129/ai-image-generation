@@ -1,3 +1,5 @@
+# ai-image-generation
+
 ## How to start dev
 ```
 npm create vite@latest ./
@@ -7,6 +9,7 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
 npm install file-saver
+npm install react-router-dom
 
 npm run dev
 ```
@@ -14,4 +17,3 @@ npm run dev
 ## Reference:
   https://vitejs.dev/guide/
   https://tailwindcss.com/docs/installation
-# ai-image-generation
