@@ -21,5 +21,9 @@ npm install cloudinary cors dotenv express mongoose nodemon openai
 ```
 
 ## Reference:
-  https://vitejs.dev/guide/
-  https://tailwindcss.com/docs/installation
+https://vitejs.dev/guide/
+https://tailwindcss.com/docs/installation
+https://openai.com/
+https://cloudinary.com/
+https://render.com/
+https://www.hostinger.co.uk/
