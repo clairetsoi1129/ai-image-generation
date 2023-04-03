@@ -1,6 +1,6 @@
 # ai-image-generation
 
-## How to start dev
+## How to start develop frontend
 ```
 npm create vite@latest ./
 npm install
@@ -12,6 +12,12 @@ npm install file-saver
 npm install react-router-dom
 
 npm run dev
+```
+
+## How to start develop backend
+```
+npm init -y
+npm install cloudinary cors dotenv express mongoose nodemon openai
 ```
 
 ## Reference:
