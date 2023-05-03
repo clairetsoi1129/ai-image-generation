@@ -1,7 +1,7 @@
 import Home from './Home';
-import CreatePost from './CreatePost';
+import MuiCreatePost from './MuiCreatePost';
 
 export {
     Home,
-    CreatePost
+    MuiCreatePost
 };

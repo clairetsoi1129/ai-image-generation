@@ -7,7 +7,7 @@ https://ai-image-generation-frontend-9wqp.onrender.com
 
 
 ## Technology
-Mongo DB Atlas, Express, React, Node.js, and Open AI API, Tailwindcss framework
+Mongo DB Atlas, Express, React, Node.js, and Open AI API, MaterialUI
 
 ## How to start develop frontend
 ```
@@ -16,6 +16,9 @@ npm install
 
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
 
 npm install file-saver
 npm install react-router-dom
@@ -30,10 +33,12 @@ npm install cloudinary cors dotenv express mongoose nodemon openai
 ```
 
 ## How to launch
-> Create an account in mongo db https://www.mongodb.com/ and create a cluster and capture the connection string
-> Create an account in openai https://platform.openai.com/docs/api-reference  and capture the Open AI API
-> Create an account in cloudinary https://cloudinary.com/ and capture the Cloud name / API key / API secret
-> Create a .env file with below info 
+
+## Pre-requisites
+1. Create an account in mongo db https://www.mongodb.com/ and create a cluster and capture the connection string
+2. Create an account in openai https://platform.openai.com/docs/api-reference  and capture the Open AI API
+3. Create an account in cloudinary https://cloudinary.com/ and capture the Cloud name / API key / API secret
+4. Create a .env file with below info 
 ```
 MONGODB_URL=<Connection String of MONGO DB>
 OPENAI_API_KEY=<API key of Open AI API>
@@ -42,17 +47,21 @@ CLOUDINARY_API_KEY=<Cloundinary API key>
 CLOUDINARY_API_SECRET=<Cloudinary API secret>
 ```
 
-> Run backend
+5. Run backend
 ```
 cd server
 npm start
 ```
 
-> Run frontend
+6. Run frontend
 ```
 cd client
 npm run dev
 ``` 
+
+## Future thoughts
+1. Add the function to like
+2. Add the function to share
 
 ## Reference:
 > https://www.youtube.com/watch?v=EyIvuigqDoA
@@ -65,6 +74,8 @@ npm run dev
 > ViteJS to create the frontend react app folder structure
 
 > https://tailwindcss.com/docs/installation
+
+> https://mui.com/material-ui/getting-started/overview/
 
 > https://openai.com/
 > Generate the image by Open AI create image 

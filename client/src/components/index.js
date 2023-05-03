@@ -1,9 +1,7 @@
-import Card from './Card';
-import FormField from './FormField';
-import Loader from './Loader';
+import ImgCard from './ImgCard';
+import CustomButton from './CustomButton';
 
 export {
-  Card,
-  FormField,
-  Loader,
+  ImgCard,
+  CustomButton
 };
