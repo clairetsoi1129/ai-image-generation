@@ -1,6 +1,6 @@
 # ai-image-generation
 ## Introduction
-This AI Image generation application is refer to the step by step guide from JavaScript Mastery tutorial on AI Image Generation App with MERN https://www.youtube.com/watch?v=EyIvuigqDoA. 
+This AI Image generation application is reference to the step by step guide from JavaScript Mastery tutorial on AI Image Generation App with MERN https://www.youtube.com/watch?v=EyIvuigqDoA. 
 
 
 ## Technology
@@ -68,7 +68,3 @@ npm run dev
 
 > https://render.com/
 > Host web app
-
-> https://www.hostinger.co.uk/
-> Host web site
-
