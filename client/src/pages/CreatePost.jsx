@@ -5,7 +5,10 @@ import { preview } from '../assets';
 import { getRandomPrompt } from '../utils';
 import { FormField, Loader } from '../components';
 
+
 const CreatePost = () => {
+  const baseUrl = import.meta.env.VITE_BACKEND_BASE_URL;
+
   const navigate = useNavigate();
 
   const [form, setForm] = useState({
@@ -28,7 +31,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch('http://localhost:8080/api/v1/dalle', {
+        const response = await fetch(`${baseUrl}/dalle`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -56,7 +59,7 @@ const CreatePost = () => {
     if (form.prompt && form.photo) {
       setLoading(true);
       try {
-        const response = await fetch('http://localhost:8080/api/v1/post', {
+        const response = await fetch(`${baseUrl}/post`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
