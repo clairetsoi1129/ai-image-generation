@@ -1,6 +1,9 @@
 # ai-image-generation
 ## Introduction
-This AI Image generation application is reference to the step by step guide from JavaScript Mastery tutorial on AI Image Generation App with MERN https://www.youtube.com/watch?v=EyIvuigqDoA. 
+This AI Image generation application is using Open AI API to generate a image based on the description provided. The frontend is writtern in React while the backend is writtern in Node.js using Express framework and connected to Mongo DB. The image is stored on cloudinary for storage. 
+
+You can visit the link below to try. 
+https://ai-image-generation-frontend-9wqp.onrender.com
 
 
 ## Technology
@@ -52,6 +55,9 @@ npm run dev
 ``` 
 
 ## Reference:
+> https://www.youtube.com/watch?v=EyIvuigqDoA
+> Javascript Mastertery tutorial 
+
 > https://www.mongodb.com/
 > Use mongodb to store the post data and link of generated image
 

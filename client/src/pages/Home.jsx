@@ -24,9 +24,10 @@ const Home = () => {
 
   const fetchPosts = async () => {
     setLoading(true);
+    const baseUrl = import.meta.env.VITE_BACKEND_BASE_URL;
 
     try {
-      const response = await fetch('http://localhost:8080/api/v1/post', {
+      const response = await fetch(`${baseUrl}/post`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
